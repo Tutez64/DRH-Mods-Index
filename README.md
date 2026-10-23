@@ -4,8 +4,6 @@ The mods [DRH Launcher](https://github.com/Tutez64/DRH-Launcher) offers for [Dun
 
 ## Submitting a version
 
-Not open yet: the launcher commands that write and submit an entry are not released.
-
 One file per version, `mods/<id>/<version>.json`. `--pack-mod` writes it with the release, `--submit-mod` opens the pull request. The CI checks it with the latest launcher (`--check-entry`) and writes in its summary the diff of the sources against the previous version, which the reviewer reads. A version is withdrawn by a pull request that only adds `yanked` (why) to its file. An `id` stays with its repository: moving it to another one needs the reviewer's `takeover` label. The rules are in [Index entry](https://github.com/Tutez64/Dungeon-Rampage-Haxe/blob/master/docs/modding.md#index-entry); how to make a mod, in [Making a mod](https://github.com/Tutez64/Dungeon-Rampage-Haxe/blob/master/docs/making-a-mod.md).
 
 ## Reading the index
