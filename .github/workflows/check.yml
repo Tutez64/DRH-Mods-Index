@@ -18,16 +18,14 @@ jobs:
           fetch-depth: 0
 
       # The repository variable DRHL_VERSION picks a launcher release (a
-      # pre-release to test one); empty, the most recent.
+      # pre-release to test one); empty, the latest.
       - name: Download DRH Launcher
         env:
           GH_TOKEN: ${{ github.token }}
           DRHL_VERSION: ${{ vars.DRHL_VERSION }}
         run: |
           cd "$RUNNER_TEMP"
-          # Until DRH Launcher 0.4.0, the most recent release, a pre-release included.
-          version=${DRHL_VERSION:-$(gh release list --repo Tutez64/DRH-Launcher --exclude-drafts --limit 1 --json tagName --jq '.[0].tagName')}
-          gh release download "$version" --repo Tutez64/DRH-Launcher --pattern '*.AppImage' --pattern SHA256SUMS
+          gh release download $DRHL_VERSION --repo Tutez64/DRH-Launcher --pattern '*.AppImage' --pattern SHA256SUMS
           sha256sum --check --ignore-missing SHA256SUMS
           mv ./*.AppImage drhl.AppImage
           chmod +x drhl.AppImage
