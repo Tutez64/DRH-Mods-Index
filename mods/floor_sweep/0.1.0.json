@@ -1,0 +1,14 @@
+{
+  "id": "floor_sweep",
+  "name": "Floor Sweep",
+  "version": "0.1.0",
+  "author": "Tutez",
+  "description": "Frees memory at the start of each floor, so the game no longer pauses for it mid-fight.",
+  "longDescription": "The game regularly pauses to free memory, sometimes for a tenth of a second or more, potentially in the middle of a fight. This mod does the biggest of these cleanups when a floor or the town is entered, during the transition's black screen, where it no longer gets in the way.\n\nShort, more frequent cleanups still happen during a floor. Like the biggest ones, they get longer the longer the game runs: restarting it from time to time keeps them short.",
+  "api": "1.0",
+  "uses": [],
+  "url": "https://github.com/Tutez64/DRH-Mod-Floor-Sweep/releases/download/v0.1.0/floor_sweep-0.1.0.zip",
+  "size": 13532,
+  "sha256": "657e1577ce7d8924e1cd9d7ce55602776514f6ad3c0184d21903d4365a95a7f4",
+  "source": "https://github.com/Tutez64/DRH-Mod-Floor-Sweep"
+}
