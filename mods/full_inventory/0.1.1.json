@@ -1,0 +1,17 @@
+{
+  "id": "full_inventory",
+  "name": "Full Inventory",
+  "version": "0.1.1",
+  "author": "Tutez",
+  "description": "See your whole inventory, even past its storage limit, with identical chests stacked into one slot.",
+  "longDescription": "Your inventory can hold more weapons and chests than its storage limit, but the game only shows as many pages as that limit fills: the rest is out of reach. With this mod:\n- The Weapons tab has as many pages as it needs to show everything.\n- Identical chests take a single slot, with their count. Opening or abandoning one acts on one chest of the stack.\n\nThis also applies to the inventory at the end of a dungeon. Chests from the dungeon that just ended stay apart.\n\nWith a full inventory, the end of a dungeon lets you neither open nor keep the chests you just won. Close the chest's window with Escape (or close the game): despite the \"abandoning loot\" warning, the chests do go to your inventory, where you can then open them.",
+  "api": "1.0",
+  "drh": "14-15",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/Tutez64/DRH-Mod-Full-Inventory/releases/download/v0.1.1/full_inventory-0.1.1.zip",
+  "size": 16291,
+  "sha256": "fcc39cff6b53c092e4809fa94b40d2a8ac2e61cdaaf686acbc4b3b911d886efc",
+  "source": "https://github.com/Tutez64/DRH-Mod-Full-Inventory"
+}
