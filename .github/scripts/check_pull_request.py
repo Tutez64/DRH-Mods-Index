@@ -66,7 +66,12 @@ def diff(work):
         capture_output=True,
         text=True,
     )
-    text = result.stdout.replace(str(previous), "a").replace(str(work / "new"), "b")
+    # git writes each path under its temporary folder, after a/ or b/, bare in a rename's lines:
+    # keep it relative to its version.
+    text = result.stdout
+    for root in (previous, work / "new"):
+        text = text.replace(str(root) + "/", "/")
+    text = re.sub(r"^(rename|copy) (from|to) /", r"\1 \2 ", text, flags=re.MULTILINE)
     if len(text) > MAX_DIFF_CHARS:
         text = text[:MAX_DIFF_CHARS] + "\n… cut: read the zips themselves.\n"
     return text
