@@ -1,0 +1,14 @@
+{
+  "id": "party_board",
+  "name": "Party Board",
+  "version": "0.1.1",
+  "author": "Tutez",
+  "description": "See players' info (level, weapons, ...) and act on them (friend, block, report) in a dungeon.",
+  "longDescription": "In a dungeon, press P to see all the players inside it. For each of them, it shows their:\n- Hero and skin (avatar)\n- Level\n- Weapons, with their rarity, level and modifiers\n\nYou can act on them:\n- Send a friend request\n- Block\n- Report\n\nSomeone that left the dungeon stays visible and you can still act on it until you leave.",
+  "api": "1.0",
+  "uses": [],
+  "url": "https://github.com/Tutez64/DRH-Mod-Party-Board/releases/download/v0.1.1/party_board-0.1.1.zip",
+  "size": 17576,
+  "sha256": "8e0c06a19c8110acba0373e05b93d860b52a4f6e891eade45d0ebd29c3ce6a69",
+  "source": "https://github.com/Tutez64/DRH-Mod-Party-Board"
+}
