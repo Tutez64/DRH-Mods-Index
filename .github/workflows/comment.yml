@@ -1,0 +1,36 @@
+# Posts the Check workflow's report on its pull request, as one comment kept up
+# to date. Runs on `workflow_run`, from master with a write token: it never runs
+# the pull request's code, and posts its report only as text.
+name: Comment
+
+on:
+  workflow_run:
+    workflows: [Check]
+    types: [completed]
+
+permissions:
+  actions: read
+  pull-requests: write
+
+jobs:
+  comment:
+    if: github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      # master's own scripts, not the pull request's.
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+
+      - name: Download the report
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        run: gh run download "$RUN_ID" --repo "$GITHUB_REPOSITORY" --name report --dir "$RUNNER_TEMP/report" || echo "No report."
+
+      - name: Comment
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+          CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+          REPORT: ${{ runner.temp }}/report/report.md
+        run: python3 .github/scripts/comment_report.py

@@ -5,7 +5,8 @@
 It may only add mods/<id>/<version>.json files, each checked by the
 launcher (--check-entry), or add `yanked` to an indexed one. Writes what the
 reviewer reads, the sources' diff against the last indexed version included,
-to the job summary.
+to the job summary, and with the diffs cut shorter to the file $REPORT, which
+the Comment workflow posts on the pull request.
 
 Usage: check_pull_request.py <launcher> <base-sha>
 """
@@ -19,6 +20,12 @@ from pathlib import Path
 
 ENTRY_PATH = re.compile(r"mods/[a-z0-9_]+/[0-9]+\.[0-9]+\.[0-9]+\.json")
 MAX_DIFF_CHARS = 200_000
+# A comment holds 65,536 characters; the diffs share this much of it.
+COMMENT_DIFF_CHARS = 50_000
+
+
+class Sources(str):
+    """The sources' diff of an entry in the report, cut to fit where the report goes."""
 
 
 def fenced(text, info=""):
@@ -71,10 +78,25 @@ def diff(work):
     text = result.stdout
     for root in (previous, work / "new"):
         text = text.replace(str(root) + "/", "/")
-    text = re.sub(r"^(rename|copy) (from|to) /", r"\1 \2 ", text, flags=re.MULTILINE)
-    if len(text) > MAX_DIFF_CHARS:
-        text = text[:MAX_DIFF_CHARS] + "\n… cut: read the zips themselves.\n"
-    return text
+    return re.sub(r"^(rename|copy) (from|to) /", r"\1 \2 ", text, flags=re.MULTILINE)
+
+
+def render(summary, diff_chars, cut):
+    """The report, each diff cut past `diff_chars`, saying `cut` where it is."""
+    lines = []
+    for line in summary:
+        if isinstance(line, Sources):
+            text = line if len(line) <= diff_chars else line[:diff_chars] + f"\n… cut: {cut}.\n"
+            lines += [
+                "<details><summary>Sources against the last indexed version</summary>",
+                "",
+                *fenced(text, "diff"),
+                "</details>",
+                "",
+            ]
+        else:
+            lines.append(line)
+    return "\n".join(lines) + "\n"
 
 
 def main():
@@ -115,26 +137,25 @@ def main():
                     problems.append(f"{path}: the launcher's checks failed")
                 summary += [f"## {path}", "", *fenced(output), ""]
                 if (work / "new").is_dir():
-                    summary += [
-                        "<details><summary>Sources against the last indexed version</summary>",
-                        "",
-                        *fenced(diff(work), "diff"),
-                        "</details>",
-                        "",
-                    ]
+                    summary.append(Sources(diff(work)))
         finally:
             git("worktree", "remove", "--force", str(base_dir))
 
     if not added and not problems and len(summary) == 2:
         problems.append("the pull request changes no entry")
     summary += ["## Result", ""] + ([f"- {problem}" for problem in problems] or ["Every check passed."])
-    report = "\n".join(summary) + "\n"
+    report = render(summary, MAX_DIFF_CHARS, "read the zips themselves")
     step_summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if step_summary:
         with open(step_summary, "a") as file:
             file.write(report)
     else:
         print(report)
+    comment = os.environ.get("REPORT")
+    if comment:
+        diffs = sum(isinstance(line, Sources) for line in summary)
+        Path(comment).parent.mkdir(parents=True, exist_ok=True)
+        Path(comment).write_text(render(summary, COMMENT_DIFF_CHARS // max(1, diffs), "the whole diff is in the run's summary"))
     for problem in problems:
         print(f"::error::{problem}")
     return 1 if problems else 0
