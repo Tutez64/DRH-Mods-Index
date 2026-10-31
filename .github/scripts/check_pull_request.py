@@ -21,6 +21,14 @@ ENTRY_PATH = re.compile(r"mods/[a-z0-9_]+/[0-9]+\.[0-9]+\.[0-9]+\.json")
 MAX_DIFF_CHARS = 200_000
 
 
+def fenced(text, info=""):
+    """Text from the pull request as a code block it cannot close: a mod's sources must not
+    turn the rest of the report into Markdown."""
+    longest = max((len(run) for run in re.findall(r"`+", text)), default=0)
+    fence = "`" * max(3, longest + 1)
+    return [fence + info, text, fence]
+
+
 def git(*args):
     return subprocess.run(["git", *args], check=True, capture_output=True, text=True).stdout
 
@@ -81,7 +89,7 @@ def main():
             if problem:
                 problems.append(problem)
             else:
-                summary += [f"## Yanks {path}", "", json.loads(Path(path).read_text())["yanked"], ""]
+                summary += [f"## Yanks {path}", "", *fenced(json.loads(Path(path).read_text())["yanked"]), ""]
         else:
             problems.append(f"{path}: an indexed entry is never removed")
 
@@ -100,14 +108,12 @@ def main():
                 print(output)
                 if result.returncode != 0:
                     problems.append(f"{path}: the launcher's checks failed")
-                summary += [f"## {path}", "", "```", output, "```", ""]
+                summary += [f"## {path}", "", *fenced(output), ""]
                 if (work / "new").is_dir():
                     summary += [
                         "<details><summary>Sources against the last indexed version</summary>",
                         "",
-                        "```diff",
-                        diff(work),
-                        "```",
+                        *fenced(diff(work), "diff"),
                         "</details>",
                         "",
                     ]
