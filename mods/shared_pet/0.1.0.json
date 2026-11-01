@@ -1,0 +1,14 @@
+{
+  "id": "shared_pet",
+  "name": "Shared Pet",
+  "version": "0.1.0",
+  "author": "Tutez",
+  "description": "Your pet follows the hero you select: equip it once, and every hero you play gets it.",
+  "longDescription": "Your pet follows the hero you select in town: no more taking it off one hero to put it on the next. The pet that follows is the one your selected hero carries when the game starts; equip another one on the selected hero to make it follow instead, or leave the hero without a pet to stop.\n\nWhen you select a hero, the pet moves to it right away, and the pet that hero carried goes back to your storage.",
+  "api": "1.2",
+  "uses": [],
+  "url": "https://github.com/Tutez64/DRH-Mod-Shared-Pet/releases/download/v0.1.0/shared_pet-0.1.0.zip",
+  "size": 14151,
+  "sha256": "361401b046f1a18eca00d23a7c4299fd8944aec823aa53c6891b3beff0606e7e",
+  "source": "https://github.com/Tutez64/DRH-Mod-Shared-Pet"
+}
