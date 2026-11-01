@@ -1,0 +1,17 @@
+{
+  "id": "ultimate_records",
+  "name": "Ultimate Records",
+  "version": "0.1.3",
+  "author": "THEYAKUZI",
+  "description": "Your best Ultimate Rampage floor for every hero on every map, this week and ever, and the legendary chests left.",
+  "longDescription": "See at a glance how deep each of your heroes got on each Ultimate Rampage map, and where you still need a legendary chest this week. Handy to pick who plays which hero before a duo or trio run.\n\nOpen it from the **round chest button** under the options button, on the town's home screen.\n\n- **This week:** each hero's floor on each map, as the game's server counts it for the week. A chest next to a floor is the map's legendary chest: bright once earned (floor 15 cleared), grey while still to get. The bottom row counts each hero's legendary chests, and the countdown shows when the week starts over.\n- **Best ever:** the deepest floor each hero reached on each map, kept by this mod from the runs you play with it, plus this week's.\n- **Recent runs:** your last 10 Ultimate Rampage runs: hero, map, deepest floor and when.\n\nThe deepest floor of each row is in gold.",
+  "api": "1.2",
+  "drh": "15",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/THEYAKUZI/DRH-Mod-Records/releases/download/v0.1.3/ultimate_records-0.1.3.zip",
+  "size": 25599,
+  "sha256": "c1a8fa783841bb24f8042b36fa20a5bd005f6d11f7422a88e738063d4475ed92",
+  "source": "https://github.com/THEYAKUZI/DRH-Mod-Records"
+}
