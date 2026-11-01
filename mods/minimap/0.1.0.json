@@ -1,0 +1,17 @@
+{
+  "id": "minimap",
+  "name": "Minimap",
+  "version": "0.1.0",
+  "author": "Xk",
+  "description": "Minimap for dungeon rampage",
+  "longDescription": "This mod will show you every tiles that is generated on your floor\n- Still in WIP but it's usable \n- Show where is the gate and what kind of gate it is (Kill/Plate/Open/Breakable)\n\nColor code: \n- Orange = Trigger Gate (Open the gate with a trigger (example: plate))\n- Purple = Kill Gate (Gate will open after you kill spawned npc)\n- Cyan = Breakable Gate (You have to break a prop to get to the gate)\n- Green = It's already open, rush !\n- Red = Closed Gate \n- Grey = Unknow Gate\n\nColor red and grey won't stay here once every gate is fixed\n\nTodo:\n- Move the minimap (it's actually poorly placed in 0, 0)\n- Fix every exit gate condition (Arena should be 100% accurate in all of his exit)\n- Gold \n- Clear everything that i don't use anymore (shouldn't impact anything for the user)",
+  "api": "1.1",
+  "drh": "15",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/Xkaka505/DRH-Mod-Minimap/releases/download/v0.1.0/minimap-0.1.0.zip",
+  "size": 21015,
+  "sha256": "f7aacc1e7048e8ca57e5d87f8f1b1f6b7362b1055a3fea83345645e43a9e1fd2",
+  "source": "https://github.com/Xkaka505/DRH-Mod-Minimap"
+}
