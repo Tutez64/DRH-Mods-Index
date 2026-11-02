@@ -1,0 +1,17 @@
+{
+  "id": "minimap",
+  "name": "Minimap",
+  "version": "0.2.0",
+  "author": "Xk",
+  "description": "A minimap of the floor, with every room and its exits colored by how they open.",
+  "longDescription": "This mod will show you every tiles that is generated on your floor\n- Still in WIP but it's usable \n- Show where is the gate and what kind of gate it is (Kill/Plate/Open/Breakable)\n\nColor code: \n- Orange = Trigger Gate (Open the gate with a trigger (example: plate))\n- Purple = Kill Gate (Gate will open after you kill spawned npc)\n- Cyan = Breakable Gate (You have to break a prop to get to the gate)\n- Green = It's already open, rush !\n- Red = Closed Gate \n- Grey = Unknown Gate\n\nColor red and grey won't stay here once every gate is fixed\n\nTodo:\n- Fix every exits gates condition (Arena should be 100% accurate in all of his exit)\n- Clear everything that i don't use anymore (shouldn't have any impact  for the user)\n\nif you have any problem you can ping/pm me in discord: caca_10782",
+  "api": "1.1",
+  "drh": "15",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/Xkaka505/DRH-Mod-Minimap/releases/download/v0.2.0/minimap-0.2.0.zip",
+  "size": 22995,
+  "sha256": "6134a87c9ec1794d55ef19e94a2433fe20a2e6680b328635ca24a6c15bf7caa0",
+  "source": "https://github.com/Xkaka505/DRH-Mod-Minimap"
+}
