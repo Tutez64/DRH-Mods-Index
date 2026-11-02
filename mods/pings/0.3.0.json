@@ -1,0 +1,17 @@
+{
+  "id": "pings",
+  "name": "Pings",
+  "version": "0.3.0",
+  "author": "THEYAKUZI",
+  "description": "Hold G for a ping wheel: call out danger, help, attacks, loot and more to your party, MOBA-style.",
+  "longDescription": "Mark spots and enemies for your party, like pings in League of Legends, drawn in the game's own style.\n\n**In a dungeon:**\n- **Hold G** to open the ping wheel where your cursor is, move toward a callout, and let go: *Danger*, *On my way*, *Attack*, *Loot*, *Help*, *Wait*, *Group up* or *Secret?*. Esc cancels.\n- The callout you pick gets a **tick** and becomes your quick ping: from then on, a **tap of G** sends it. Pick the wheel's centre to go back to the default.\n- By default, a tap pings the spot under your cursor (*Look here!*), or calls an attack on the enemy there.\n- A ping on an enemy follows that enemy until it dies.\n\nA ping drops onto the floor with its icon, its rings and a sound, and shows who sent it. When it is off screen, the game's own edge marker points to it, as it does for teammates.\n\n**Settings:** the game's options (the gear) get a **PINGS** button, in town and in dungeons. There you can change the ping key, how long to hold it before the wheel opens, the size of pings, turn their sounds off, hide the other players' pings, hide the ping's code in the chat, and reset your quick ping.\n\n**Who sees it:** pings travel through the dungeon's chat. Party members with this mod see the ping, never the chat line. Party members without it read a short callout in the chat instead, such as `Danger! [p:d:1234:-567]`. With **CHAT CODE** set to **HIDDEN**, the code is written in invisible characters and they read only `Danger!`. Party members with this mod see your pings either way.\n\nYou can send up to 4 pings every 4 seconds.",
+  "api": "1.1",
+  "drh": "14-15",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/THEYAKUZI/DRH-Mod-Pings/releases/download/v0.3.0/pings-0.3.0.zip",
+  "size": 35486,
+  "sha256": "979c03b1d52db2df94ca1080894f7ea2e6bf4ad474c7e5d860e86be8803945b5",
+  "source": "https://github.com/THEYAKUZI/DRH-Mod-Pings"
+}
