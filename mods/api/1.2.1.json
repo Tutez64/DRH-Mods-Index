@@ -1,0 +1,16 @@
+{
+  "id": "api",
+  "name": "API",
+  "version": "1.2.1",
+  "author": "Tutez",
+  "description": "The official API every mod builds on: a stable layer over the game, so mods keep working across its updates.",
+  "longDescription": "Every mod builds on it: a stable layer over the game, so mods keep working across its updates. The launcher installs it automatically.",
+  "drh": "16",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/Tutez64/DRH-Mod-API/releases/download/v1.2.1/api-1.2.1.zip",
+  "size": 35024,
+  "sha256": "d54b659f92c7a954cdfe883940ebb87c4cfd34e2f165e0b509b7cbee52a9a387",
+  "source": "https://github.com/Tutez64/DRH-Mod-API"
+}
