@@ -1,0 +1,17 @@
+{
+  "id": "quick_restart",
+  "name": "Quick Dungeon Restart",
+  "version": "0.1.1",
+  "author": "Danny",
+  "description": "Shift+R quickly restarts the current dungeon with its entry settings and keeps the gold cache synchronized.",
+  "longDescription": "Shift+R quickly restarts the current dungeon with its entry settings and keeps the gold cache synchronized.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/rendable/DRH-Mod-Quick-Dungeon-Restart/releases/download/v0.1.1/quick_restart-0.1.1.zip",
+  "size": 5627,
+  "sha256": "c62cbce3ed0140df4d5505cee23d4a9c9d15ac6de39d00375036efc72db8379d",
+  "source": "https://github.com/rendable/DRH-Mod-Quick-Dungeon-Restart"
+}
