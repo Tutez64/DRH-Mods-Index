@@ -1,0 +1,17 @@
+{
+  "id": "gift_sorter",
+  "name": "Gift Sorter",
+  "version": "0.1.0",
+  "author": "Danny",
+  "description": "Sorts gifts by Health Shots, Mana Shots, Health Bombs, then remaining items alphabetically.",
+  "longDescription": "Sorts gifts by Health Shots, Mana Shots, Health Bombs, then remaining items alphabetically.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/rendable/DRH-Mod-Gift-Sorter/releases/download/v0.1.0/gift_sorter-0.1.0.zip",
+  "size": 3518,
+  "sha256": "224ae770f7b90a85bdb16b6b3d76a15c0827550f3ee803db143299758dad5470",
+  "source": "https://github.com/rendable/DRH-Mod-Gift-Sorter"
+}
