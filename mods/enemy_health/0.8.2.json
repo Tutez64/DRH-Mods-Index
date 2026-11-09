@@ -1,0 +1,17 @@
+{
+  "id": "enemy_health",
+  "name": "Enemy Health and Effects",
+  "version": "0.8.2",
+  "author": "Danny",
+  "description": "Adds numerical enemy HP, encounter-specific boss panels, player mana bars and active buff/debuff icons.",
+  "longDescription": "Adds numerical enemy HP, encounter-specific boss panels, player mana bars and active buff/debuff icons.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/rendable/DRH-Mod-Enemy-Health-and-Effects/releases/download/v0.8.2/enemy_health-0.8.2.zip",
+  "size": 21307,
+  "sha256": "77a7d54ebf4cfad9cef9048509ef471a79bc1facc0976becc31f26f6d7c3eff9",
+  "source": "https://github.com/rendable/DRH-Mod-Enemy-Health-and-Effects"
+}
