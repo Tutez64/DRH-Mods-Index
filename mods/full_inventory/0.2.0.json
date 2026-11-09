@@ -1,0 +1,17 @@
+{
+  "id": "full_inventory",
+  "name": "Full Inventory",
+  "version": "0.2.0",
+  "author": "Tutez",
+  "description": "See your whole inventory past its storage limit, stack identical chests, and open chests or unequip weapons when full.",
+  "longDescription": "Your inventory can hold more weapons and chests than its storage limit, but the game only shows as many pages as that limit fills: the rest is out of reach. A full storage also blocks some actions. With this mod:\n- The Weapons tab has as many pages as it needs to show everything.\n- Identical chests take a single slot, with their count, beyond the game's own stacks of 99.\n- Chests open even when your storage is full, as before 1.0, and those won at the end of a dungeon can be kept.\n- An equipped weapon's card has its Unequip button even when your storage is full.\n- Next to Add Storage, what the storage holds against its limit, as the game counts it: unequipped weapons and stacks of chests.\n\nThe servers still refuse two things past the limit: buying weapons in the shop, and ascending a hero, even with no weapon to unequip.",
+  "api": "1.0",
+  "drh": "16-17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/Tutez64/DRH-Mod-Full-Inventory/releases/download/v0.2.0/full_inventory-0.2.0.zip",
+  "size": 18246,
+  "sha256": "015a7fbe916fdc0776ee5419c761646cfe4ba92b762688410d57bd6909b07d18",
+  "source": "https://github.com/Tutez64/DRH-Mod-Full-Inventory"
+}
