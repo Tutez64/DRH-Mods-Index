@@ -1,0 +1,17 @@
+{
+  "id": "gift_select_all",
+  "name": "Gift Select All Pages",
+  "version": "0.1.0",
+  "author": "Danny",
+  "description": "Selects all gift-eligible friends across every page, with Select None clearing the full selection.",
+  "longDescription": "Selects all gift-eligible friends across every page, with Select None clearing the full selection.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/rendable/DRH-Mod-Gift-Select-All-Pages/releases/download/v0.1.0/gift_select_all-0.1.0.zip",
+  "size": 3515,
+  "sha256": "dd583a54cfe748966349619271edd9ee457a4b580d79cc16d68783109fc308f6",
+  "source": "https://github.com/rendable/DRH-Mod-Gift-Select-All-Pages"
+}
