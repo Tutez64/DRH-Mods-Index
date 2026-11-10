@@ -1,0 +1,17 @@
+{
+  "id": "enemy_health_and_effects",
+  "name": "Enemy Health and Effects",
+  "version": "0.8.2",
+  "author": "Danny",
+  "description": "Adds numerical enemy HP, encounter-specific boss panels, player mana bars and active buff/debuff icons.",
+  "longDescription": "Adds numerical enemy HP, encounter-specific boss panels, player mana bars and active buff/debuff icons.\n\n- Native enemy and breakable-prop HP bars with readable white values, revealed after damage.\n- Compact encounter-specific boss panels, capped at three rows, while retaining numerical overhead HP bars.\n- Three number-free Golem segments track its lava-pool objectives.\n- Other players get numerical HP and purple mana bars, with profile-picture spacing.\n- Enemy, boss and remote-player buff/debuff icons show stacks without estimated countdowns.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/rendable/DRH-Mod-Enemy-Health-and-Effects/releases/download/v0.8.2/enemy_health_and_effects-0.8.2.zip",
+  "size": 21403,
+  "sha256": "205c0335fb37f844b9257ad72bc0840a0df810833650ebe30d939ac3a5ba18d7",
+  "source": "https://github.com/rendable/DRH-Mod-Enemy-Health-and-Effects"
+}
