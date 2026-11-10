@@ -1,0 +1,17 @@
+{
+  "id": "instant_victory_reveal",
+  "name": "Instant Victory Reveal",
+  "version": "0.1.0",
+  "author": "Danny",
+  "description": "Fast-forwards victory XP, kill counters and short reveal delays without changing rewards.",
+  "longDescription": "Fast-forwards victory XP, kill counters and short reveal delays without changing rewards.\n- Fast-forwards XP, team XP, kill-count, treasure and booster reveal steps.\n- Keeps normal loot controls and the separate trophy presentation.\n- Does not change earned rewards or automatically leave the results screen.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/rendable/DRH-Mod-Instant-Victory-Reveal/releases/download/v0.1.0/instant_victory_reveal-0.1.0.zip",
+  "size": 3144,
+  "sha256": "f7f39fb9e186cffa5fa3236eb3217c5a1a666934681be396b7c44c62e6b2372c",
+  "source": "https://github.com/rendable/DRH-Mod-Instant-Victory-Reveal"
+}
