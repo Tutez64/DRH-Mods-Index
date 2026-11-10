@@ -1,0 +1,17 @@
+{
+  "id": "weapon_rater",
+  "name": "Weapon Rater",
+  "version": "0.1.0",
+  "author": "judioconprepucio",
+  "description": "Rates every weapon from 1 to 5 stars, in the inventory and in the shop, from the community's best-modifier guide.",
+  "longDescription": "A small panel rates each weapon's modifiers from 1 to 5 stars:\n\n- **Inventory, equip popup, dungeon loot:** hover a weapon and the panel shows above its tooltip (beside it when there is no room above).\n- **Shop (Today's Weapons):** hover a card and the panel shows above the weapon's name.\n\nThe panel's border takes the rating's colour, and the modifiers it counted are written under the stars. When the weapon has one of the guide's pairs, a tag tells what the pair is for: **DPS** (damage), **CC** (crowd control), **BUFF** or **MOBILITY**.\n\n| Stars | Border | Meaning |\n| --- | --- | --- |\n| 5 | Gold | A pair from the guide, both modifiers at 5 stars (or 5 + 4) |\n| 4 | Green | A pair from the guide, averaging 3.5 stars or more |\n| 3 | Yellow | A pair from the guide with lower stars, or one useful modifier at 4 stars or more |\n| 2 | Orange | One useful modifier below 4 stars |\n| 1 | Red | No modifier from the guide, or no modifier at all |\n| 0 | Grey | No guide data for this weapon yet |\n\nPower and the legendary modifier are not counted: the guide is about modifier combos, not damage.\n\n**Credits:** the ratings come from the community guide **(FULL) Heroes Weapon Build Set** by JY, in the Dungeon Rampage Discord (#guides). Weapon data thanks to **johnnsonp**.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/judioconprepucio/DRH-Mod-WeaponRater/releases/download/v0.1.0/weapon_rater-0.1.0.zip",
+  "size": 23102,
+  "sha256": "e41756e6cdc6e0272e31964e8a14b666d24fd087f799fdb245d0d92bc682b8be",
+  "source": "https://github.com/judioconprepucio/DRH-Mod-WeaponRater"
+}
