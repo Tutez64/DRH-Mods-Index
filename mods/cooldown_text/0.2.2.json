@@ -1,0 +1,17 @@
+{
+  "id": "cooldown_text",
+  "name": "Cooldown Text",
+  "version": "0.2.2",
+  "author": "Danny",
+  "description": "Adds centered countdown text to weapon, consumable and timed player-effect HUD icons.",
+  "longDescription": "Adds centered countdown text to weapon, consumable and timed player-effect HUD icons.\n- Centered cooldown text on weapon and consumable buttons.\n- Smaller countdowns on timed player-effect icons.\n- Supports both HUD renderers and follows HUD movement and layout changes.\n- Only displays timers; actual cooldowns are unchanged.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/rendable/DRH-Mod-Cooldown-Text/releases/download/v0.2.2/cooldown_text-0.2.2.zip",
+  "size": 4918,
+  "sha256": "ba1292df84d4765a59d2f317976a82805e6a76f6db60d9fdcb871a5f6db1efea",
+  "source": "https://github.com/rendable/DRH-Mod-Cooldown-Text"
+}
