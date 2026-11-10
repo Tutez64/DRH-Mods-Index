@@ -1,5 +1,5 @@
 {
-  "id": "enemy_health",
+  "id": "enemy_health_and_effects",
   "name": "Enemy Health and Effects",
   "version": "0.8.2",
   "author": "Danny",
@@ -10,8 +10,8 @@
   "uses": [
     "extends"
   ],
-  "url": "https://github.com/rendable/DRH-Mod-Enemy-Health-and-Effects/releases/download/v0.8.2/enemy_health-0.8.2.zip",
-  "size": 21308,
-  "sha256": "440cde16fdcf7f830a19077b7cb422085dbc49ea1123fa2013dae32db72f56f2",
+  "url": "https://github.com/rendable/DRH-Mod-Enemy-Health-and-Effects/releases/download/v0.8.2/enemy_health_and_effects-0.8.2.zip",
+  "size": 21403,
+  "sha256": "205c0335fb37f844b9257ad72bc0840a0df810833650ebe30d939ac3a5ba18d7",
   "source": "https://github.com/rendable/DRH-Mod-Enemy-Health-and-Effects"
 }
