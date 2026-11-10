@@ -4,14 +4,14 @@
   "version": "0.1.1",
   "author": "Danny",
   "description": "Shift+R quickly restarts the current dungeon with its entry settings and keeps the gold cache synchronized.",
-  "longDescription": "Shift+R quickly restarts the current dungeon with its entry settings and keeps the gold cache synchronized.",
+  "longDescription": "Shift+R quickly restarts the current dungeon with its entry settings and keeps the gold cache synchronized.\n- Shift+R exits and re-enters using the saved dungeon-entry settings.\n- Preserves the friends-only setting and waits for server exit confirmation.\n- Prevents duplicate restart requests and ignores chat input and held-key repeats.\n- Keeps the account gold cache synchronized with server currency updates.",
   "api": "1.2",
   "drh": "17",
   "uses": [
     "extends"
   ],
   "url": "https://github.com/rendable/DRH-Mod-Quick-Dungeon-Restart/releases/download/v0.1.1/quick_restart-0.1.1.zip",
-  "size": 5627,
-  "sha256": "c62cbce3ed0140df4d5505cee23d4a9c9d15ac6de39d00375036efc72db8379d",
+  "size": 5624,
+  "sha256": "ad66ad0da64aadb284e4cd3f768a6f93c2ee6ed02a40a8d8cb41607bb3efbb47",
   "source": "https://github.com/rendable/DRH-Mod-Quick-Dungeon-Restart"
 }
