@@ -1,0 +1,17 @@
+{
+  "id": "quick_dungeon_restart",
+  "name": "Quick Dungeon Restart",
+  "version": "0.2.0",
+  "author": "Danny",
+  "description": "Shift+R and a native Repeat button replay dungeons; Next and Repeat preserve Friends Only and summary reward handling.",
+  "longDescription": "Shift+R and a native Repeat button replay dungeons. Next and Repeat preserve Friends Only and summary reward handling.\n- Shift+R exits and re-enters using the saved dungeon-entry settings.\n- Adds a Repeat button beneath Next using the game's own artwork, font and hover styling.\n- Shift+R also works on the dungeon summary, after the reveal and crate handling finish.\n- Keep, open or abandon remaining crates and close summary dialogs before repeating; it does not auto-claim loot.\n- Summary repeats use native exit cleanup and refresh the account before re-entry.\n- Next and Repeat preserve the previous entry's Friends Only setting, both on and off.\n- Waits for server exit confirmation.\n- Prevents duplicate restart requests and ignores chat input and held-key repeats.\n- Keeps the account gold cache synchronized with server currency updates.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/rendable/DRH-Mod-Quick-Dungeon-Restart/releases/download/v0.2.0/quick_dungeon_restart-0.2.0.zip",
+  "size": 9938,
+  "sha256": "594309c9a5e74d690a21d153ff6caae2a850a46823704593fdd85d0138b0c157",
+  "source": "https://github.com/rendable/DRH-Mod-Quick-Dungeon-Restart"
+}
