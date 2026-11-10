@@ -1,5 +1,5 @@
 {
-  "id": "gift_select_all",
+  "id": "gift_select_all_pages",
   "name": "Gift Select All Pages",
   "version": "0.1.0",
   "author": "Danny",
@@ -10,8 +10,8 @@
   "uses": [
     "extends"
   ],
-  "url": "https://github.com/rendable/DRH-Mod-Gift-Select-All-Pages/releases/download/v0.1.0/gift_select_all-0.1.0.zip",
-  "size": 3512,
-  "sha256": "b67ae1ac3c121abd24ef3138310b56af1e201e8dfb5989b2272177d380a2f224",
+  "url": "https://github.com/rendable/DRH-Mod-Gift-Select-All-Pages/releases/download/v0.1.0/gift_select_all_pages-0.1.0.zip",
+  "size": 3519,
+  "sha256": "e7f480059194099d7b0262e4e4346f566ec824113acd4cea02c89db30533c27b",
   "source": "https://github.com/rendable/DRH-Mod-Gift-Select-All-Pages"
 }
