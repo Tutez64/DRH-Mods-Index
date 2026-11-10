@@ -1,5 +1,5 @@
 {
-  "id": "instant_victory",
+  "id": "instant_victory_reveal",
   "name": "Instant Victory Reveal",
   "version": "0.1.0",
   "author": "Danny",
@@ -10,8 +10,8 @@
   "uses": [
     "extends"
   ],
-  "url": "https://github.com/rendable/DRH-Mod-Instant-Victory-Reveal/releases/download/v0.1.0/instant_victory-0.1.0.zip",
-  "size": 3139,
-  "sha256": "b73ecfef1defe53a522e523cf59156b7ba2c174b1e5e316f66f06c3f55d86614",
+  "url": "https://github.com/rendable/DRH-Mod-Instant-Victory-Reveal/releases/download/v0.1.0/instant_victory_reveal-0.1.0.zip",
+  "size": 3144,
+  "sha256": "f7f39fb9e186cffa5fa3236eb3217c5a1a666934681be396b7c44c62e6b2372c",
   "source": "https://github.com/rendable/DRH-Mod-Instant-Victory-Reveal"
 }
