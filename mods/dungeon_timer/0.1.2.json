@@ -1,0 +1,17 @@
+{
+  "id": "dungeon_timer",
+  "name": "Dungeon Timer",
+  "version": "0.1.2",
+  "author": "Danny",
+  "description": "Shows the current floor time, combined dungeon time, and final time on the dungeon summary.",
+  "longDescription": "Shows the current floor time and total dungeon time in the game's native floor label, separated by a divider.\r\n\r\n- **Floor** starts from zero when the floor is revealed and your hero is ready.\r\n- **Dungeon** adds the time spent on revealed floors after you join, keeping fractional seconds between floors and skipping loading time.\r\n- **Summary** shows the final total in white to the left of the player cards, including on failed runs. Starting another dungeon resets both timers.\r\n\r\nEach clock displays `MM:SS` and switches to `H:MM:SS` after an hour.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/rendable/DRH-Mod-Dungeon-Timer/releases/download/v0.1.2/dungeon_timer-0.1.2.zip",
+  "size": 5904,
+  "sha256": "3b50ce7e0acd5fbfb37055cf8f5a691486e6a5274a8378d1d1c99164773fb1d6",
+  "source": "https://github.com/rendable/DRH-Mod-Dungeon-Timer"
+}
