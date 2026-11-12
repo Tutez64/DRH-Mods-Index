@@ -1,0 +1,17 @@
+{
+  "id": "favorite_friends",
+  "name": "Favorite Friends",
+  "version": "0.1.1",
+  "author": "Danny",
+  "description": "Star friends on the town leaderboard and keep favorites at the top of their online or offline group.",
+  "longDescription": "Click the star at the top center of a friend's town leaderboard portrait, between the trophy and ascension badges.\n\n- Gold stars mark favorites. Click again to remove a favorite and turn the star gray.\n- Favorites move to the front of their online or offline group. Friends with the same favorite status are ordered by trophies. Your own slot stays first.\n- Favorites persist across restarts in the mod's local `favorites.json` file. Star friends again to recreate favorites from the old Flash mod.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/rendable/DRH-Mod-Favorite-Friends/releases/download/v0.1.1/favorite_friends-0.1.1.zip",
+  "size": 4615,
+  "sha256": "0ad64a05f7806394e939d0b19bce479d3621820bda7b0ad94a1d350985d0afad",
+  "source": "https://github.com/rendable/DRH-Mod-Favorite-Friends"
+}
