@@ -1,0 +1,17 @@
+{
+  "id": "weapon_rater",
+  "name": "Weapon Rater",
+  "version": "0.2.0",
+  "author": "judioconprepucio",
+  "description": "Rates weapons 1 to 5 stars from the community's guide and compares them with your equipped weapons.",
+  "longDescription": "A small panel rates each weapon's modifiers from 1 to 5 stars:\n\n- **Inventory, equip popup, dungeon loot:** hover a weapon and the panel shows above its tooltip (beside it when there is no room above).\n- **Shop (Today's Weapons):** hover a card and the panel shows above the weapon's name.\n\nThe panel's border takes the rating's colour, and the modifiers it counted are written under the stars. When the weapon has one of the guide's pairs, a tag tells what the pair is for: **DPS** (damage), **CC** (crowd control), **BUFF** or **MOBILITY**.\n\n| Stars | Border | Meaning |\n| --- | --- | --- |\n| 5 | Gold | A pair from the guide, both modifiers at 5 stars (or 5 + 4) |\n| 4 | Green | A pair from the guide, averaging 3.5 stars or more |\n| 3 | Yellow | A pair from the guide with lower stars, or one useful modifier at 4 stars or more |\n| 2 | Orange | One useful modifier below 4 stars |\n| 1 | Red | No modifier from the guide, or no modifier at all |\n| 0 | Grey | No guide data for this weapon yet |\n\nThe stars rate the modifiers only: the guide is about modifier combos, not damage.\n\n### Comparison with your equipped weapons\n\nUnder the stars, the panel compares the weapon with the ones equipped on the hero who would carry it (the active hero if it can, else another of yours that can):\n\n- **Same line first.** A weapon is compared with the equipped weapons of its own evolution line (Short Bow, Raven Bow ... Onyx Bow). With none of that line equipped, it is compared with those of the same type (any bow), and the advice says the other line plays differently.\n- **For each one:** its slot key, a verdict (**UPGRADE**, **DOWNGRADE**, **SIDEGRADE**, **EQUAL**), power and stars side by side with the change, both weapons' modifiers with the game's own icons, and a line of advice.\n- **The verdict** weighs the guide's stars over power, since modifiers never change while power grows with the weapon's level. Power gaps under 5% count as none; more stars win unless the power lost is over 15%. When the guide does not rate both weapons, only power is compared, and the advice says so.\n\n### Marks on the weapons\n\n- **Green arrow** (inventory and shop): an upgrade of an equipped weapon of its line, both rated by the guide. **Yellow arrow:** it only beats one of its type, or the guide does not rate both.\n- **Gold coin** (inventory): no better than the equipped weapon of its line, in stars nor in power. Weapons with a legendary modifier are never marked.\n- **Crown** (inventory): the best weapon of its line among all of yours, when you have two or more of that line.\n\n### Keys\n\n- **F6** hides or shows the comparison and the marks.\n- **F7** switches the panel between English and Spanish.\n\nBoth are remembered between sessions.\n\n**Credits:** the ratings come from the community guide **(FULL) Heroes Weapon Build Set** by JY, in the Dungeon Rampage Discord (#guides). Weapon data thanks to **johnnsonp**.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/judioconprepucio/DRH-Mod-WeaponRater/releases/download/v0.2.0/weapon_rater-0.2.0.zip",
+  "size": 36251,
+  "sha256": "46e972d4cc931854fbbb5c2d22b63cf1a84d05815096a44970da99799dc2b9ba",
+  "source": "https://github.com/judioconprepucio/DRH-Mod-WeaponRater"
+}
