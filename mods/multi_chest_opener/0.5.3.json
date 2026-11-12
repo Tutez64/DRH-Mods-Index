@@ -1,0 +1,17 @@
+{
+  "id": "multi_chest_opener",
+  "name": "Multi Chest Opener",
+  "version": "0.5.3",
+  "author": "iClawSuit",
+  "description": "Opens several chests at once with a slider for your keys and gold, and shows the loot with each weapon's icon.",
+  "longDescription": "Press UNLOCK on a chest in the town's storage and pick how many to open: from 1 to what your keys and gold allow, with the cost shown before spending. Chests open one after the other, and the loot comes as a grid with the icon of everything that dropped, its name in its rarity colour and its count. Rest the cursor on an item to read its level, type, power and modifiers. Small and royal item boxes are supported too, bought with gold. English and Spanish, with an EN/ES button.",
+  "api": "1.2",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/clawsuit/DRH-Mod-MultiChestOpener/releases/download/v0.5.3/multi_chest_opener-0.5.3.zip",
+  "size": 23013,
+  "sha256": "04484a66819ff0e77fb21b1f7056e961d0e5d170e66aa54e683473b828788f9f",
+  "source": "https://github.com/clawsuit/DRH-Mod-MultiChestOpener"
+}
