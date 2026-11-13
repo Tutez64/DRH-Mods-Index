@@ -1,0 +1,17 @@
+{
+  "id": "classic_settings",
+  "name": "Classic Settings",
+  "version": "1.0.1",
+  "author": "MasterAlexS",
+  "description": "Gives the settings menu the classic Dungeon Rampage wooden board, red ribbon banner, and styled labels.",
+  "longDescription": "Brings the authentic pre-1.0 Dungeon Rampage look and feel to the settings screen:\n\n- **Classic Wooden Board**: Replaces the modern yellow-and-black hazard border and dark paint splats with the iconic wooden plank board and metallic corner rivets from the town interface (`db_UI_town.swf`).\n- **Curved Red Ribbon Banner**: Adds the classic red ribbon banner behind the \"SETTINGS\" title, scaled cleanly so the original comic text fits naturally.\n- **Accurate Close Button**: Positions the close button (\"X\") right at the intersection of the top and right iron frame bars.\n- **Warm Fantasy Typography**:\n  - Category tabs and setting titles in bold gold (`#FFCC00`).\n  - Setting descriptions in readable parchment tan (`#D4C4B0`).\n  - Values and the reset button in clean white.\n  - Soft, feathered drop shadows across all text for improved readability and that authentic retro comic feel.\n- **100% Native & Compatible**: Leaves all game controls (checkboxes, sliders, dropdowns, keybinds, and scrollbars) completely intact and functional, with zero gameplay bugs or mod conflicts.",
+  "api": "1.2.2",
+  "drh": "16-18",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/MasterAlexS/DRH-Mod-Classic-Settings/releases/download/v1.0.1/classic_settings-1.0.1.zip",
+  "size": 10651,
+  "sha256": "f315cfd187ea83e5ebf582f1be5c4cf38360ef89adfacf60cad51d9db9ba01ff",
+  "source": "https://github.com/MasterAlexS/DRH-Mod-Classic-Settings"
+}
