@@ -1,0 +1,17 @@
+{
+  "id": "custom_settings_api",
+  "name": "Custom Settings API",
+  "version": "1.0.1",
+  "author": "MasterAlexS",
+  "description": "Allows other mods to add custom options and special categories/menus to the settings menu.",
+  "longDescription": "### Overview\n\n**Custom Settings API** extends Dungeon Rampage's native settings architecture, allowing mod developers to create rich, persistent configuration options with zero boilerplate.\n\n### Key Features\n\n- **Rich Control Types**:\n  - **Checkboxes (Booleans)**: Simple toggle switches for enabling or disabling mod features.\n  - **Choice Selectors (Dropdowns / Cycles)**: Multi-option selection controls with custom human-readable labels.\n  - **Numeric Sliders**: Smooth value sliders with configurable minimum, maximum, step increments, display scale, and decimal precision.\n\n- **Flexible Menu Placement**:\n  - **Extend Existing Categories**: Inject mod settings directly into vanilla game categories (`Game`, `Audio`, `Video`, `Controls`).\n  - **Dedicated Mod Categories**: Create brand new category tabs with custom titles (e.g. `INPUT HUD`, `GAMEPLAY MODS`).\n\n- **Dynamic Category Pagination**:\n  - Automatically activates left-hand navigation arrows when more than 6 category tabs are present.\n  - Seamlessly cycles across all tabs using mouse clicks, keyboard keys (`Q` / `E`), or gamepad bumper buttons (`LB` / `RB`).\n\n- **Automatic Persistence & Storage**:\n  - Saves all custom setting values automatically to `settings.json` within the mod's dedicated data folder.\n  - Loads saved preferences on startup with instant fallback to developer defaults.\n\n- **Instant Event Callbacks**:\n  - Supports live change listeners triggered immediately when the player adjusts a setting.\n\n- **Controller & Gamepad Ready**:\n  - Full compatibility with vanilla gamepad navigation, analog sticks, and digital buttons.",
+  "api": "1.2.2",
+  "drh": "16-17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/MasterAlexS/DRH-Mod-Custom-Settings-API/releases/download/v1.0.1/custom_settings_api-1.0.1.zip",
+  "size": 14557,
+  "sha256": "dbec25f5ec15ec68036cc368ea7761950d34927bbb0d663b12a091999a7648d3",
+  "source": "https://github.com/MasterAlexS/DRH-Mod-Custom-Settings-API"
+}
