@@ -1,0 +1,17 @@
+{
+  "id": "hud_input_selector",
+  "name": "HUD Input Selector",
+  "version": "1.0.1",
+  "author": "MasterAlexS",
+  "description": "Customize HUD button prompts: dynamic Auto Detect, Keyboard, or Controller, with custom gamepad and keycap styles.",
+  "longDescription": "### Settings & Organization\n- **Standalone**: Works out of the box with native settings on Mod API 1.3.0+.\n- **Recommended**: **[Custom Settings API](https://github.com/MasterAlexS/DRH-Mod-Custom-Settings-API)** — provides a dedicated, beautifully organized **INPUT HUD** menu tab and category in the settings.\n\n---\n\n### Features\n\nTake control of how button prompts are displayed on your HUD:\n\n1. **BUTTONS USED**:\n   - **Default**: Displays the primary key bindings configured in the game controls.\n   - **Alt**: Displays the secondary / alternate key bindings configured in the game controls.\n\n2. **BUTTON PROMPTS**:\n   - **Auto Detect**: Dynamically switches HUD prompts based on the last active input device (keyboard/mouse vs. controller buttons or analog stick movement).\n   - **Keyboard**: Forces keyboard prompts on the HUD at all times.\n   - **Controller**: Forces controller prompts on the HUD at all times.\n\n3. **CONTROLLER STYLE**:\n   - **Auto Detect**: Uses the game's detected controller icon style.\n   - **Console Styles**: DualSense, DualShock 4, Xbox Series/One, Xbox 360, Nintendo Switch, Steam Deck, DualShock 3, Xbox One, Steam Controller, Wii U, Wii, PS Vita, PS Move, Google Stadia, Amazon Luna, Ouya.\n\n4. **KEYBOARD STYLE**:\n   - **Text**: Standard text labels matching your configured keys.\n   - **Dark Keys**: Graphical keycap prompts on a dark background.\n   - **Light Keys**: Graphical keycap prompts on a light background.\n\n### Seamless Settings Integration\n- Works seamlessly either standalone (via native Mod API 1.3.0+ settings) or through **Custom Settings API** for a dedicated, neatly organized **INPUT HUD** tab.\n- Settings are saved automatically per mod across game restarts.",
+  "api": "1.3.0",
+  "drh": "17",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/MasterAlexS/DRH-Mod-HUD-Input-Selector/releases/download/v1.0.1/hud_input_selector-1.0.1.zip",
+  "size": 17080,
+  "sha256": "b05a867a817f9bf762dbae02d19bef982819e6582c815199da48e0fbde10ea3b",
+  "source": "https://github.com/MasterAlexS/DRH-Mod-HUD-Input-Selector"
+}
