@@ -1,0 +1,17 @@
+{
+  "id": "minimap_dps_meter",
+  "name": "Mini map & DPS meter",
+  "version": "0.4.3",
+  "author": "Drandox",
+  "description": "Shows dungeon walls, gates and glowing chests on a minimap, with ranked party damage and DPS. Drag to move or resize.",
+  "longDescription": "### Preview\r\n\r\n![Mini map and DPS meter in a dungeon](https://raw.githubusercontent.com/Drandoxy/DRH-Mod-MiniMap-DPS-Meter/main/docs/images/overview.png)\r\n\r\nSee the floor layout, chests and your party's damage while you play.\r\n\r\n- The map shows walls, enemies and player portraits. The exit room is purple, and breakable walls have purple cracks.\r\n- Chests use their own icons with a colored glow. Gold and collected XP are shown below the map.\r\n- The damage meter shows each player's total damage, percentage of the party's total damage, and DPS. The top player's bar fills the row; the other bars scale against it.\r\n- Player colors come from their names and match between the map and meter.\r\n\r\nPress **M** to hide or show both panels. Drag the map header or the damage meter to move it. Use **- / +** beside the compass to zoom, then drag inside the map to look around. Player-follow resumes after four seconds. Positions, sizes and zoom are saved automatically. Hover over either bottom corner and drag to resize it. Both panels hide during loading and floor countdowns.",
+  "api": "1.4.0",
+  "drh": "18",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/Drandoxy/DRH-Mod-MiniMap-DPS-Meter/releases/download/v0.4.3/minimap_dps_meter-0.4.3.zip",
+  "size": 103230,
+  "sha256": "e1978fc076fa8719d9a385418f1a1df7153382fc4267bc8e0ee7b728d9c8e13f",
+  "source": "https://github.com/Drandoxy/DRH-Mod-MiniMap-DPS-Meter"
+}
