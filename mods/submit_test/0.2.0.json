@@ -1,0 +1,14 @@
+{
+  "id": "submit_test",
+  "name": "Submit Test",
+  "version": "0.2.0",
+  "author": "Tutez",
+  "description": "Throwaway mod to test --submit-mod. Not for players.",
+  "longDescription": "Logs a line and does nothing else. Not for players: it only tests the index's submission.",
+  "api": "1.5",
+  "uses": [],
+  "url": "https://github.com/Tutez64/DRH-Mod-Submit-Test/releases/download/v0.2.0/submit_test-0.2.0.zip",
+  "size": 13054,
+  "sha256": "0af875bc1bc561a0b1bf760e468abecc5a2d79984c16d1dd4bffd0d2762b9f3c",
+  "source": "https://github.com/Tutez64/DRH-Mod-Submit-Test"
+}
