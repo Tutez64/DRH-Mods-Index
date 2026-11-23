@@ -1,0 +1,17 @@
+{
+  "id": "online_tracker",
+  "name": "Online Tracker",
+  "version": "0.1.7",
+  "author": "XξИӦĜεй三尺Šĭ乌",
+  "description": "Tracks online activity and received gifts, storing only data visible to you while online.",
+  "longDescription": "## Features\n\n- **Last Online Tracking:** Displays the last recorded online date for each friend directly in the friends list.\n- **Least Active Selection:** Adds a `LEAST ACTIVE` button to quickly select the friend who has been inactive for the longest time.\n- **New Gift Detection:** Detects newly received gifts and remembers previously seen gifts.\n- **Gift Sender Tracking:** Records activity for friends who send you gifts.\n\n**Important:** Activity is only recorded while you are online in the game. The mod only tracks information that is already visible to you in-game.",
+  "api": "1.5",
+  "drh": "18",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/Xenogenersis/DRH-Mod-Online-Tracker/releases/download/v0.1.7/online_tracker-0.1.7.zip",
+  "size": 19066,
+  "sha256": "d78bf2dd853df925bf00908e45cf7853c8bf4f4a7c141ffee6114abfe8b6849a",
+  "source": "https://github.com/Xenogenersis/DRH-Mod-Online-Tracker"
+}
