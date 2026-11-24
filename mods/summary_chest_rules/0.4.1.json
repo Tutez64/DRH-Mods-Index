@@ -1,0 +1,17 @@
+{
+  "id": "summary_chest_rules",
+  "name": "Summary Chest Rules",
+  "version": "0.4.1",
+  "author": "iClawSuit",
+  "description": "Keeps or discards the victory summary chests by rarity, automatically.",
+  "longDescription": "**No hotkey.** The mod is active whenever it is loaded; disable it in the launcher. Configure the rules\nin **Settings → MODS → Summary Chest Rules**.\n\n- **Keep RARE / LEGENDARY / UNCOMMON / COMMON**: each rarity is kept by default; uncheck to discard.\n- **Keep item boxes**: small and royal item boxes are kept by default.\n- **Keep timeout**: seconds to wait for the server to confirm a KEEP before that chest is left to you.\n\nWhen a run ends, the mod waits for the summary and resolves the chests one by one with the same calls\nas the KEEP and DROP buttons. It does not open them: it only decides whether they go to the inventory\nor are discarded. The server still decides their contents. A small line at the bottom of the screen\ntells you what it did or why it paused.\n\nIf chest storage is full, it pauses once and gives you the game's own storage-full prompt; it does not\nretry the same chest. If the server rejects a chest, that chest is left to you and the remaining ones\ncontinue (one rejection per summary). If a KEEP takes too long, that chest is left to you and the rest\ncontinue. If the whole summary ends up clean after a pause, the mod resumes by itself. Changing an\noption also resumes it.\n\nIf **Full Inventory** is loaded, the mod skips the client-side room check, as that mod allows chests\npast the standard storage limit; the server still decides.\n\nDo not run it together with **Auto Dungeon / Loot Manager** while its automatic loot is on: both handle\nthe same summary chests. **Dungeon Minimap** is compatible; it does not touch the chests.",
+  "api": "1.5",
+  "drh": "18",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/clawsuit/DRH-Mod-SummaryChestRules/releases/download/v0.4.1/summary_chest_rules-0.4.1.zip",
+  "size": 8525,
+  "sha256": "60d2e4875978d1f27955238e133666c0fa158b423170ec89531c38b0198fa378",
+  "source": "https://github.com/clawsuit/DRH-Mod-SummaryChestRules"
+}

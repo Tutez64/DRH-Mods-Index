@@ -1,0 +1,17 @@
+{
+  "id": "multi_chest_opener",
+  "name": "Multi Chest Opener",
+  "version": "0.7.0",
+  "author": "iClawSuit",
+  "description": "Opens or abandons several chests at once with a slider, and shows the loot with each weapon's icon.",
+  "longDescription": "Press **UNLOCK** on a chest in the town's storage and pick how many to open: from 1 to what your keys and gold allow, with the cost and any gold spend shown before you confirm. Press **ABANDON** instead and the same window discards the number you pick, with a second confirmation because it cannot be undone.\n\n- Drag the slider or use **+** and **−** to pick the amount.\n- **GAME WINDOW** hands the chest back to the game's own window, so you can buy keys with gems or see the normal reveal. In discard mode it is **ONE BY ONE**, the game's single-chest abandon prompt.\n- If no key can be paid with gold and you have none, the game's own window opens directly.\n- With a full weapon storage the open run stops before opening anything and leaves the chests to you.\n- A gold purchase always asks for a second press.\n- If the server rejects a chest, the run stops and says so.\n- Chests the server is still busy with are retried once.\n\nThe loot comes as a grid with the icon of everything that dropped, its name in its rarity colour and its count. Rest the cursor on an item to read its level, type, power and modifiers. English and Spanish, switched by the **EN/ES** button and remembered by the mod.\n\nIt adds **no rows** to the game's settings menu: the language and the gold switch live in this window.",
+  "api": "1.5",
+  "drh": "18",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/clawsuit/DRH-Mod-MultiChestOpener/releases/download/v0.7.0/multi_chest_opener-0.7.0.zip",
+  "size": 28039,
+  "sha256": "8a8e479d4cc1869dd0a3acb2bcad0951ffb407cc28b4c3f95736be82b9301ba4",
+  "source": "https://github.com/clawsuit/DRH-Mod-MultiChestOpener"
+}
