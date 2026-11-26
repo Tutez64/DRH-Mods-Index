@@ -1,0 +1,17 @@
+{
+  "id": "session_tracker",
+  "name": "Session Tracker",
+  "version": "0.1.1",
+  "author": "Miguel D",
+  "description": "Daily totals of gold, XP, chests, runs, floors and time, plus new inventory items per run.",
+  "longDescription": "A small panel in the bottom-left corner of the screen shows the day's totals: gold and XP earned inside dungeons, chests opened, runs, floors, time played and the average gold and XP of a run, plus the run in progress or the last one and the items it added to your inventory, with legendaries in orange.\n\n- **Ctrl + Shift + T** shows or hides the panel, the way the Dungeon Minimap uses Ctrl + Shift + M. **F3** clears the day's totals (the previous days stay in the file); F6, F7 and F9 are left to the mods that use them.\n- Drag the panel by its header to move it.\n- The totals are kept in `session.json` in the mod's data folder. A new calendar day starts a new session and keeps the earlier ones as history.\n\nGold counts only what was earned inside the dungeon: the balance is sampled when the first floor loads, so shopping in town is never added to it. XP is the end-of-dungeon report's total, or the XP orbs picked up when the game sends no report. Chests are the treasure the party collected, and every chest counts for the whole party.\n\nItem names come from your inventory when you are back in town, compared with it when the dungeon started. Weapons are compared by kind, power, level and rarity, because the API has no per-weapon id yet: two identical weapons still show as a count of two. Items sold or opened outside the run are not subtracted. The panel starts in the bottom-left corner so it does not cover the Dungeon Minimap panel, which defaults to the top-right; drag it for another spot, the position is not remembered between starts.\n\nBoth keys are set in Settings → Controls, where they can be rebound if another mod or the game wants them. A key binds once, compared by the key alone, so T belongs to this mod until it is rebound. Tested with DRH 18 and Mod API 1.5.0.\n\nGold and XP capture reads the game's own objects through `context.core`, so a DRH update can break those counters; the panel and the rest keep working without them.",
+  "api": "1.5",
+  "drh": "18",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/dargmiguel/DRH-Mod-Session-Tracker/releases/download/v0.1.1/session_tracker-0.1.1.zip",
+  "size": 27816,
+  "sha256": "c1ab3a67d70814dd1b45b975e8e74a0be2bb022e120ee58cab5ed8de2bada208",
+  "source": "https://github.com/dargmiguel/DRH-Mod-Session-Tracker"
+}
