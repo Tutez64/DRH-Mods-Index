@@ -1,0 +1,17 @@
+{
+  "id": "player_history",
+  "name": "Player History",
+  "version": "0.5.8",
+  "author": "Verox",
+  "description": "Live board of players met in dungeons: search, cup counts, friends-only manager, gifts, join, add, block and remove.",
+  "longDescription": "## What it does\n\nEvery non-local player you meet in a dungeon is remembered: name, hero and level (with the ascension number when they ascended), how many dungeons you played together, the last map, and when. A run counts once, whether you leave for town or go straight to the next dungeon.\n\nIn town, a round two-player button on the home screen (under the Ultimate Records one) opens the board. The default key is **H** and it can be changed like the other mods' keys. **Escape** closes the board.\n\nThe board has a white-and-ice-blue look, a soft green **LIVE** pip, a gold star for friends, and columns that stay readable. It scales to fit your screen. The open tab refreshes twice a second, so presence and times stay current without flickering the whole board.",
+  "api": "1.3",
+  "drh": "18",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/verox-source/DRH-Mod-PlayerHistory/releases/download/v0.5.8/player_history-0.5.8.zip",
+  "size": 32830,
+  "sha256": "8626ac3b53d422b1b6a05c478ae259badb8b5ab74d77fedf63ad0faa9cfb3f2b",
+  "source": "https://github.com/verox-source/DRH-Mod-PlayerHistory"
+}
