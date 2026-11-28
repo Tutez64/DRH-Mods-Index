@@ -100,9 +100,12 @@ def diff_folders(previous, new):
     """Every file that differs, whole: the reviewer reads this in place of the zip, so the zip
     must not choose what it shows. No rename: a file moved as it is, into src/ say, would be a
     line naming it, without its content. No attribute but git's own: a .gitattributes in the zip
-    would have its sources shown as binary files that differ."""
+    would have its sources shown as binary files that differ. Windows line ends read as the
+    others: a version whose line ends changed would show every line of its files, and the
+    launcher refuses them in a new zip."""
     result = subprocess.run(
-        ["git", f"--attr-source={EMPTY_TREE}", "diff", "--no-index", "--no-color", "--no-renames", "--", str(previous), str(new)],
+        ["git", f"--attr-source={EMPTY_TREE}", "diff", "--no-index", "--no-color", "--no-renames", "--ignore-cr-at-eol", "--",
+         str(previous), str(new)],
         capture_output=True,
         encoding="utf-8",
         errors="replace",
