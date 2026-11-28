@@ -1,0 +1,17 @@
+{
+  "id": "dungeon_minimap",
+  "name": "Dungeon Minimap",
+  "version": "0.1.20",
+  "author": "Drandox",
+  "description": "A zoomable dungeon map with walls, chests, party markers, and gold and XP counters.",
+  "longDescription": "A zoomable map with dungeon-specific palettes, walls, purple breakable-wall markers, chests, and party portraits. The footer shows gold and XP collected during the run.\n\nUse **- / +** to zoom. At higher zoom, the map follows you. Drag inside the map to look around, or drag the header to move the panel. Drag a bottom corner to resize. Click the lock beside the zoom buttons to resize width and height independently. At 1x zoom, the whole floor fits the panel without stretching. The mod remembers your layout, zoom, and lock setting. Use **Reset minimap size and location** in Settings to restore the default panel size and position.\n\nClick the **castle button** to show full gate type codes below the gold and XP counters. Green means gate details are enabled. For a color report, include the map, these details, and the gate in the game in your screenshot. Details show the exact tile ID, assigned mode, map color, full exit gate code/name, and trigger/breakable state, without listing unrelated props. Click again to hide them.\n\nExit colors follow Xk's Minimap: orange for a trigger, purple for enemy kills, cyan for a breakable blocker, green for open, red for closed, and grey for unknown.\n\nPress **Ctrl + Shift + M** to turn the map on or off. You can rebind it in Settings -> Controls. Turning it off releases the map graphics and stops updates. The mod remembers whether it was on.\n\nBased on [Xk's Minimap](https://github.com/Xkaka505/DRH-Mod-Minimap). Use one minimap mod at a time. This mod can run alongside [Party DPS Meter](https://github.com/Drandoxy/DRH-Mod-Party-DPS-Meter), which uses the same player colors.",
+  "api": "1.4.0",
+  "drh": "18-19",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/Drandoxy/DRH-Mod-Dungeon-Minimap/releases/download/v0.1.20/dungeon_minimap-0.1.20.zip",
+  "size": 54393,
+  "sha256": "6edaea8763af437d0eec4226ea3edc33a5de6080f6ac3bdab8396ef2edd3395a",
+  "source": "https://github.com/Drandoxy/DRH-Mod-Dungeon-Minimap"
+}
