@@ -1,0 +1,17 @@
+{
+  "id": "display_tweaks",
+  "name": "Display Tweaks",
+  "version": "1.0.0",
+  "author": "MasterAlexS",
+  "description": "Fullscreen/Borderless/Windowed, Aspect Ratio filter, custom Resolutions, Adaptive FOV, and Render Scale.",
+  "longDescription": "Adds full display, aspect ratio, resolution, viewport scaling, and internal Stage3D resolution scaling options for **Dungeon Rampage Haxe** inside **Settings -> MODS** (`Display Tweaks`).\n\n## Features\n\n- **Display Mode**: Switch cleanly between **Fullscreen**, **Borderless**, and **Windowed** modes (or toggle Fullscreen anytime with **F11** / **Alt+Enter**).\n- **Aspect Ratio**: Choose between **16:9**, **16:10**, **4:3**, **21:9**, **32:9**, and **1:1**. Dynamically filters available **Resolution** choices and frames the viewport accurately in Fullscreen.\n- **Resolution**: Dynamically filtered to match the active Aspect Ratio. Resizes the window cleanly in **Windowed** mode and controls the active framing & internal rendering resolution in **Fullscreen**.\n- **View Option**: Preserved automatically across all display mode and resolution changes:\n  - **Standard** — Crisp `16:9` framing centered inside the active box.\n  - **Adaptive** — Undistorted dungeon camera expansion for `16:10`, `4:3`, `1:1`, `21:9`, and `32:9` while keeping UI sharp and centered.\n  - **Stretch** — Stretches the chosen aspect framing to fill the entire screen/window edge-to-edge without black bars.\n- **Render Scale (`10%` – `200%`)**: Scales the world rendering resolution independently (`10%`–`200%`) while keeping the HUD and Flash UI crisp at native resolution.",
+  "api": "1.6.0",
+  "drh": "16-19",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/MasterAlexS/DRH-Mod-Display-Tweaks/releases/download/v1.0.0/display_tweaks-1.0.0.zip",
+  "size": 19887,
+  "sha256": "e0fb275497c2511759b8ed6eda4d16403ec4d9eccf8c2f6a9aedd30eec0f9850",
+  "source": "https://github.com/MasterAlexS/DRH-Mod-Display-Tweaks"
+}
