@@ -1,0 +1,17 @@
+{
+  "id": "hud_input_selector",
+  "name": "HUD Input Selector",
+  "version": "1.2.1",
+  "author": "MasterAlexS",
+  "description": "Customize HUD button prompts: dynamic Auto Detect, Keyboard, or Controller, with custom gamepad and keycap styles.",
+  "longDescription": "### Features\n\nTake control of how button prompts are displayed across the entire in-game HUD:\n\n1. **BUTTONS USED**:\n   - **Default**: Displays the primary key bindings configured in the game controls.\n   - **Alt**: Displays the secondary / alternate key bindings configured in the game controls.\n\n2. **BUTTON PROMPTS**:\n   - **Auto Detect**: Dynamically switches HUD prompts based on the last active input device (keyboard/mouse vs. controller buttons or analog stick movement).\n   - **Keyboard**: Forces keyboard prompts on the HUD at all times.\n   - **Controller**: Forces controller prompts on the HUD at all times.\n\n3. **CONTROLLER STYLE**:\n   - **Auto Detect**: Uses the game's detected controller icon style.\n   - **Console Styles**: DualSense, DualShock 4, Xbox Series/One, Xbox 360, Nintendo Switch, Steam Deck, DualShock 3, Xbox One, Steam Controller, Wii U, Wii, PS Vita, PS Move, Google Stadia, Amazon Luna, Ouya.\n\n4. **KEYBOARD STYLE**:\n   - **Text**: Standard text labels matching your configured keys.\n   - **Dark Keys**: Graphical keycap prompts on a dark background.\n   - **Light Keys**: Graphical keycap prompts on a light background.\n\n5. **FULL HUD PROMPT COVERAGE**:\n   - **Action Bar & Potions**: All skill slots, health potion, and hero abilities display styled keycaps or controller glyphs.\n   - **Top-Right Buttons**: Displays ESC and O keycaps for Keyboard (Dark/Light keys), or Menu (Start/Options) and View (Back/Select/Touchpad) glyphs for Gamepads on Close [X] and Settings Gear buttons.\n   - **Chat Log**: Displays the controller D-Pad Left prompt icon on the chat `LOG` button.\n   - **Ultimate / Buster**: Formats prompts with `\"PRESS [GLYPH]\"` for Controller and Dark/Light keycaps, and `\"PRESS B\"` in text mode.\n\n### Floor Transitions & Persistence\n- HUD button prompts persist seamlessly between dungeon floors, gate transitions, and respawns without reverting or disappearing.\n- Settings are saved automatically per mod across game restarts.",
+  "api": "1.6.0",
+  "drh": "17-19",
+  "uses": [
+    "extends"
+  ],
+  "url": "https://github.com/MasterAlexS/DRH-Mod-HUD-Input-Selector/releases/download/v1.2.1/hud_input_selector-1.2.1.zip",
+  "size": 17511,
+  "sha256": "87392cd374173167f895d423d263ee386c972ebeeade61e061f63831ebd0540d",
+  "source": "https://github.com/MasterAlexS/DRH-Mod-HUD-Input-Selector"
+}
